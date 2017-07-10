@@ -17,6 +17,7 @@ gem 'jbuilder', '~> 2.5'
 #custom gems
 gem 'devise'
 gem 'rubocop', require: false
+gem 'annotate'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
