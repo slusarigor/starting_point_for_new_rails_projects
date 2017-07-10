@@ -7,6 +7,6 @@ Rails.application.routes.draw do
   end
 
   devise_for :users
-  devise_for :admin_users
+  devise_for :admin_users, skip: [:registrations]
   root to: 'static#home'
 end
