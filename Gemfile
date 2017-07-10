@@ -19,6 +19,7 @@ gem 'devise'
 gem 'rubocop', require: false
 gem 'annotate'
 gem 'administrate', github: 'thoughtbot/administrate'
+gem "haml-rails", "~> 0.9"
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
