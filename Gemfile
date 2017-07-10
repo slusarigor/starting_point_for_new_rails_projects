@@ -20,6 +20,9 @@ gem 'rubocop', require: false
 gem 'annotate'
 gem 'administrate', github: 'thoughtbot/administrate'
 gem "haml-rails", "~> 0.9"
+gem "therubyracer"
+gem "less-rails"
+gem "twitter-bootstrap-rails"
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
